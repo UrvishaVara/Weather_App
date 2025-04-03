@@ -50,7 +50,7 @@ const App = () => {
   }
 
   return (
-    <div className='bg-[url("./sky.jpg")] bg-cover'>
+    <div className='bg-[url("./weather.jpg")] bg-cover'>
       <div className="text-white p-6 min-h-screen space-y-5 flex flex-col justify-center items-center">
         <NativeSelect onChange={selectCity} label="Select City" data={['Choose Here', 'Rajkot', 'Ahemdabad']} className='!w-full !max-w-4xl' />
         {
