@@ -50,8 +50,8 @@ const App = () => {
   }
 
   return (
-    <div className='bg-[url("./weather.jpg")] bg-cover'>
-      <div className="text-white p-6 min-h-screen space-y-5 flex flex-col justify-center items-center">
+    <div >
+      <div className="text-white p-6 min-h-screen space-y-5 flex flex-col justify-center items-center bg-[url('./weather.jpg')] bg-cover" >
         <NativeSelect onChange={selectCity} label="Select City" data={['Choose Here', 'Rajkot', 'Ahemdabad']} className='!w-full !max-w-4xl' />
         {
           city !== "" ? (<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-4 max-w-4xl w-full bg-gradient-to-r from-blue-600 rounded-lg shadow-xl">
